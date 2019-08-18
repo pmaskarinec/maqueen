@@ -125,9 +125,9 @@ namespace maqueen{
 
         // read pulse
         let d = pins.pulseIn(DigitalPin.P2, PulseValue.High, maxCmDistance * 42);
-        console.log("Distance: " + d/42);
+        //console.log("Distance: " + d/42);
         
-        basic.pause(50)
+        //basic.pause(50)
 
         switch (unit) {
             case PingUnit.Centimeters: return d / 42;
